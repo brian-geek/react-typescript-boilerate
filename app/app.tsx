@@ -74,6 +74,8 @@ if (module.hot) {
   });
 }
 
+
+
 // Chunked polyfill for browsers without Intl support
 if (!(window as any).Intl) {
   new Promise(resolve => {
